@@ -1,0 +1,35 @@
+
+.header {
+  padding: 49px 0 18px 0;
+  text-transform: uppercase;
+  font-weight: 500;
+  &_row {
+    justify-content: space-between;
+    align-items: center
+  }
+
+  &__logo {
+
+  }
+  &__nav {
+    width: 412px;
+    @include flexBox;
+    justify-content: space-between;
+    .nav__link {
+    }
+    @media (max-width: 892px) {
+      width: 350px;
+    }
+    @media (max-width: 824px) {
+      display: none;
+    }
+  }
+  &__cart {
+    width: 110px;
+    img {
+      margin: 0 13px 0 0;
+      width: 15px;
+      height: 15px;;
+    }
+  }
+}

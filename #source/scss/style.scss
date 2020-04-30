@@ -1,0 +1,26 @@
+// NULLING
+@import "null.scss";
+// MIXINS
+@import "mixins.scss";
+
+$fontfamily: '';
+
+body {
+  font-family: $fontfamily;
+}
+.container {
+  max-width: ;
+}
+
+.row {
+
+}
+
+/*=========Header==============*/
+@import "header.scss";
+/*=========Main styles=========*/
+
+//Styles
+
+/*=========Footer==============*/
+@import "footer.scss";

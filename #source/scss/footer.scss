@@ -1,0 +1,36 @@
+.footer {
+  padding: 68px 0  66px;
+  .container {
+    @include flexBox;
+  }
+  &_col {
+    @include flexBox;
+  }
+  &__socials {
+    .icon {
+      margin-right: 13px;
+      @include flexBox;
+      width: 80px;
+      height: 80px;
+      background: #e1e1e1;
+      border-radius: 50%;
+      align-items: center;
+      justify-content: center;
+      img {
+        width: 21px !important;
+        height: 21px !important;
+      }
+    }
+    .icon:nth-child(3) {margin-right:140px;}
+  }
+  &__content {
+    flex-direction: column;
+    justify-content: center;
+    .content__title {
+      margin-bottom: 12px;
+      font-size: 36px;
+      line-height: 36px;
+      font-weight: 700;
+    }
+  }
+}
